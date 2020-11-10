@@ -54,6 +54,7 @@ header {
   position: relative;
 }
 
+/* Logo header */
 .header-img .logo {
   width: 100%;
   position: absolute;
@@ -64,7 +65,7 @@ header {
 }
 
 .header-img .logo img {
-  width: 300px;
+  width: 280px;
   margin-bottom: 25px;
 }
 
@@ -83,7 +84,6 @@ header nav {
 .main-menu {
   text-align: center;
   text-transform: uppercase;
-  color: white;
 }
 
 .main-menu li {
@@ -96,7 +96,7 @@ header nav {
 
 .main-menu li:hover {
   background-color: #718198;
-  border-bottom: 2px solid #3a5a40;
+  border-bottom: 2px solid green;
 }
 
 /* Colonna sinistra */
@@ -148,12 +148,13 @@ main {
 }
 
 .content h1 {
+  font-family: "Lato", sans-serif;
   text-shadow: 1px 2px 1px gray;
   margin-bottom: 25px;
 }
 
 .content p {
-  line-height: 1.6;
+  line-height: 30px;
 }
 
 /* Colonna destra */
@@ -171,11 +172,12 @@ main {
 }
 
 .text-widget h3 {
+  font-family: "Lato", sans-serif;
   margin-bottom: 25px;
 }
 
 .text-widget p {
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 10px;
   font-weight: 400;
 }
@@ -191,13 +193,19 @@ footer {
   width: calc(100% - 10px);
   margin: auto;
   text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 25px;
   color: rgb(179, 177, 177);
   border-bottom: 2px solid rgb(179, 177, 177);
 }
 
+.copyright img {
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* Sezione footer con icone social */
 .social-icons li {
   width: calc(100% / 3);
   text-align: center;
@@ -209,4 +217,8 @@ footer {
 
 .social-icons li a {
   color: lightgray;
+}
+
+.social-icons li a:hover {
+  color: green;
 }
