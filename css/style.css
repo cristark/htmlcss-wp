@@ -1,0 +1,103 @@
+/* Regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 10px;
+  width: 900px;
+  margin: auto;
+}
+
+.f-left {
+  float: left;
+}
+
+body {
+  background-image: url("../img/wood-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 300px;
+  background-color: #edf2f4;
+}
+
+.header-img {
+  width: 100%;
+  height: 80%;
+  background-color: #3d5a80;
+  border: 10px solid white;
+}
+
+header nav {
+  width: 100%;
+  height: 20%;
+  background-color: grey;
+}
+
+/* Colonna sinistra */
+.col-left {
+  width: 25%;
+  height: 300px;
+  background-color: #edf2f4;
+  border-radius: 5px;
+}
+
+/* Sezione centrale */
+main {
+  margin: 10px 0;
+}
+
+.content {
+  width: calc(55% - 80px);
+  height: 200px;
+  background-color: #edf2f4;
+  margin: 0 40px;
+  border-radius: 5px;
+}
+
+/* Colonna destra */
+.col-right {
+  width: 20%;
+}
+
+.text-widget {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #edf2f4;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #edf2f4;
+  border-radius: 5px;
+}
+
+.copyright {
+  width: calc(100% - 10px);
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 25px;
+  color: rgb(179, 177, 177);
+  border-bottom: 2px solid rgb(179, 177, 177);
+}
