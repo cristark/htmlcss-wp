@@ -117,11 +117,17 @@ header nav {
 }
 
 .col-left ul a {
-  color: #3a5a40;
+  color: green;
+  font-weight: 500;
 }
 
 .col-left ul li {
   list-style-type: none;
+  margin: 10px 0;
+}
+
+.col-left ul a:hover {
+  text-decoration: underline;
 }
 
 /* Sezione centrale */
