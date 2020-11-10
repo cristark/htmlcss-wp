@@ -29,7 +29,6 @@ body {
 }
 
 h1,
-h2,
 h3 {
   text-transform: uppercase;
   color: white;
@@ -85,18 +84,44 @@ header nav {
 
 .main-menu li {
   display: inline-block;
-  line-height: 45px;
+  line-height: 43px;
   font-weight: 700;
-  margin: 0 10px;
+  padding: 0 10px;
   font-size: 12px;
+}
+
+.main-menu li:hover {
+  background-color: #718198;
+  border-bottom: 2px solid #3a5a40;
 }
 
 /* Colonna sinistra */
 .col-left {
   width: 25%;
-  height: 300px;
   background-color: #edf2f4;
   border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.left-title i {
+  color: orange;
+  float: left;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.left-title h2 {
+  font-family: "Lato", sans-serif;
+  color: #2a2022;
+  font-weight: 700;
+}
+
+.col-left ul a {
+  color: #3a5a40;
+}
+
+.col-left ul li {
+  list-style-type: none;
 }
 
 /* Sezione centrale */
