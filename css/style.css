@@ -31,7 +31,7 @@ body {
 h1,
 h3 {
   text-transform: uppercase;
-  color: white;
+  color: #2a2022;
 }
 
 a {
@@ -137,10 +137,19 @@ main {
 
 .content {
   width: calc(55% - 80px);
-  height: 200px;
   background-color: #edf2f4;
   margin: 0 40px;
   border-radius: 5px;
+  padding: 15px;
+}
+
+.content h1 {
+  text-shadow: 1px 2px 1px gray;
+  margin-bottom: 25px;
+}
+
+.content p {
+  line-height: 1.6;
 }
 
 /* Colonna destra */
