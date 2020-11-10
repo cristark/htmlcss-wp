@@ -183,7 +183,6 @@ main {
 /* Footer */
 footer {
   width: 100%;
-  height: 150px;
   background-color: #edf2f4;
   border-radius: 5px;
 }
@@ -197,4 +196,17 @@ footer {
   line-height: 25px;
   color: rgb(179, 177, 177);
   border-bottom: 2px solid rgb(179, 177, 177);
+}
+
+.social-icons li {
+  width: calc(100% / 3);
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  font-size: 50px;
+  list-style-type: none;
+}
+
+.social-icons li a {
+  color: lightgray;
 }
