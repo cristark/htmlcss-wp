@@ -25,12 +25,18 @@ body {
   background-image: url("../img/natural-pattern.png");
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 h1,
 h2,
 h3 {
   text-transform: uppercase;
+  color: white;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
@@ -43,7 +49,7 @@ header {
 /* Prima sezione header - immagine */
 .header-img {
   width: 100%;
-  height: 85%;
+  height: 255px;
   background-image: url(../img/natural-header.jpg);
   background-size: cover;
   border: 8px solid white;
@@ -67,8 +73,22 @@ header {
 /* Menu di navigazione header */
 header nav {
   width: 100%;
-  height: 15%;
+  height: 45px;
   background-color: #5b636a;
+}
+
+.main-menu {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main-menu li {
+  display: inline-block;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 0 10px;
+  font-size: 12px;
 }
 
 /* Colonna sinistra */
