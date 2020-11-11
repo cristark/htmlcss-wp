@@ -97,6 +97,11 @@ header nav {
 .main-menu li:hover {
   background-color: #718198;
   border-bottom: 2px solid green;
+  cursor: pointer;
+}
+
+.main-menu li:first-child {
+  border-bottom: 2px solid green;
 }
 
 /* Colonna sinistra */
